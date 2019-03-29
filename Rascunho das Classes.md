@@ -1,8 +1,9 @@
-## Classes
+# Classes
 
-referencia: https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
+Referencia para organização de arquivos: https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
 
-### Domains - "time"
+## Domínios
+### Temporalidade
 class Date {
 private:
     short day;
@@ -52,11 +53,16 @@ public:
     }
 }
 
-## Domains - location
-class State
-class City
+### Localidade
+class State {
+    
+}
 
-## Domains - codes
+class City {
+    
+}
+
+### Códigos
 class Code
     // se eu definir um construtor pra essa classe abstrata, 
     // ainda não seria possível instanciar um obj dessa classe?
@@ -68,6 +74,12 @@ class EventCode extends Code
 class PresentationCode extends Code
 class TicketCode extends Code
 
-## Domains - password
-## Domains - CPF
+### Usuário
+class Password
+class Cpf
 
+<hr>
+
+
+## Entidades
+Aí vem uma lista de entidades.
