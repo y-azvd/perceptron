@@ -70,3 +70,4 @@ class TicketCode extends Code
 
 ## Domains - password
 ## Domains - CPF
+
