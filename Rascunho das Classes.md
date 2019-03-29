@@ -1,10 +1,11 @@
 # Classes
 
-Referencia para organização de arquivos: https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
+Referência para organização de arquivos: https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
 
 ## Domínios
 ### 1 Temporalidade
 #### 1.1 Data
+```
 class Date {
 private:
     short day;
@@ -27,8 +28,10 @@ public:
         return day +"/"+ month +"/"+ year;
     }
 }
+```
 
 #### 1.2 Horário
+```
 class Hours {
 private:
     short hours;
@@ -54,10 +57,13 @@ public:
         return hours +"H"+ minutes;
     }
 }
+```
 
 ### 2 Localidade
 #### 2.1 Cidade
+`class City`
 #### 2.2 Estado
+`class State`
 
 ### 3 Códigos
 ```cpp
@@ -69,11 +75,12 @@ class Code
     abstract bool validate();
 ```
 #### 3.1 Código de Evento
-#### 3.2 Código de Apresentação
-#### 3.2 Código de Ingresso
-
 `class EventCode extends Code`
+
+#### 3.2 Código de Apresentação
 `class PresentationCode extends Code`
+
+#### 3.2 Código de Ingresso
 `class TicketCode extends Code`
 
 ### Usuário
