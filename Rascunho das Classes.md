@@ -3,7 +3,8 @@
 Referencia para organização de arquivos: https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
 
 ## Domínios
-### Temporalidade
+### 1 Temporalidade
+#### 1.1 Data
 class Date {
 private:
     short day;
@@ -27,6 +28,7 @@ public:
     }
 }
 
+#### 1.2 Horário
 class Hours {
 private:
     short hours;
@@ -53,26 +55,26 @@ public:
     }
 }
 
-### Localidade
-class State {
-    
-}
+### 2 Localidade
+#### 2.1 Cidade
+#### 2.2 Estado
 
-class City {
-    
-}
-
-### Códigos
+### 3 Códigos
+```cpp
 class Code
     // se eu definir um construtor pra essa classe abstrata, 
     // ainda não seria possível instanciar um obj dessa classe?
     string code;
     int length; //?
     abstract bool validate();
+```
+#### 3.1 Código de Evento
+#### 3.2 Código de Apresentação
+#### 3.2 Código de Ingresso
 
-class EventCode extends Code
-class PresentationCode extends Code
-class TicketCode extends Code
+`class EventCode extends Code`
+`class PresentationCode extends Code`
+`class TicketCode extends Code`
 
 ### Usuário
 class Password
