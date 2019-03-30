@@ -10,10 +10,7 @@ Passar na matéria.
 Se vira aí.
 
 ## Uso
-Faz assim
-
-Depois assim.
-
+Quem é bom mesmo nem precisa de um README.md
 ## A fazer
 Todo o sistema.
 
