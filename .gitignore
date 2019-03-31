@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Script files
 *.sh
 
@@ -33,3 +34,7 @@
 *.exe
 *.out
 *.app
+=======
+# acho que sao modulos pytohn
+.pyc
+>>>>>>> melhor README.ms
