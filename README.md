@@ -13,6 +13,8 @@ python Perceptron.py
 readForPerceptron('./tests/nomedoarquivo.csv', np.int)
 ```
 
+Por enquanto só é possível testar as funções que estão no diretório `tests`
+
 ## A fazer
 - arrumar a documentação. Agora ela é só de mentirinha
 - mais testes
