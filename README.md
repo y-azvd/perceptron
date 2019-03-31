@@ -5,4 +5,3 @@
 - mais testes
 - uma classe para plotagem dos resultados
 - basicamente arrumar o final do `Perceptron.py`
->>>>>>> melhor README.ms
